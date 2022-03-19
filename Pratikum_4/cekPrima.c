@@ -8,17 +8,17 @@
 
 int main() {
     int N;
-    int banyakFaktor = 0;
+    int b = 0;
 
     scanf("%d", &N);
 
     for (int i = 1; i <= N; i++) {
         if (N % i == 0) {
-            banyakFaktor++;
+            b++;
         }
     }
 
-    if (banyakFaktor == 2) {
+    if (b == 2) {
         printf("Bilangan Prima");
     } else {
         printf("Bukan Bilangan Prima");

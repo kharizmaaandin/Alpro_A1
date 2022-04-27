@@ -1,8 +1,7 @@
-// Nama file : Segitiga.c
-// Pembuat   : Kharisma Andini Putri
-// NIM/Kelas : 24060121140119/A Informatika
-// Tanggal   : 24 Maret 2021
-// Deskripsi : mengurutkan array menggunakan counting sort secara descending
+// Nama File        : [ bubble.c ]
+// Deskripsi        : [ mengurutkan array menggunakan bubble sort secara descending ] 
+// Pembuat          : [ Kharisma Andini Putri ] 
+// Tgl pembuatan    : [ Rabu, 27-04-2022 23:11 WIB ]
 
 #include <stdio.h>
 
@@ -12,7 +11,6 @@ int main() {
     int i, j;
     for (i = 0; i < N - 1; i++) {
  
-        // Last i elements are already in place
         for (j = 0; j < N - i - 1; j++)
             if (T[j] < T[j + 1]) {
                 int temp = T[j];

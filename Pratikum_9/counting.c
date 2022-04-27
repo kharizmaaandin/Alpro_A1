@@ -1,8 +1,7 @@
-// Nama file : couting.c
-// Pembuat   : Kharisma Andini Putri
-// NIM/Lab   : 24060121140119 / A1 Informatika
-// Tanggal   : 27 April 2022
-// Deskripsi : mengurutkan array menggunakan counting sort secara descending
+// Nama File        : [ counting.c ]
+// Deskripsi        : [ mengurutkan array menggunakan counting sort secara descending ] 
+// Pembuat          : [ Kharisma Andini Putri ] 
+// Tgl pembuatan    : [ Rabu, 27-04-2022 23:11 WIB ]
 
 #include <stdio.h>
 
@@ -15,7 +14,7 @@ int main() {
     }
     for (int i =99; i >= 0; i--) {
         for (int j = 0; j < counter[i]; j++) {
-            printf("%d, " ,i);
+            printf("%d " ,i);
         }
     }
 }

@@ -1,8 +1,7 @@
-// Nama file : Segitiga.c
-// Pembuat   : Kharisma Andini Putri
-// NIM/Kelas : 24060121140119/A Informatika
-// Tanggal   : 24 Maret 2021
-// Deskripsi : mengurutkan array menggunakan counting sort secara descending
+// Nama File        : [ selection.c ]
+// Deskripsi        : [ mengurutkan array menggunakan selection sort secara descending ] 
+// Pembuat          : [ Kharisma Andini Putri ] 
+// Tgl pembuatan    : [ Rabu, 27-04-2022 23:11 WIB ]
 
 #include <stdio.h>
 
